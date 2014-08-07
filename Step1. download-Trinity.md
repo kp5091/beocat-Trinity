@@ -1,18 +1,18 @@
 To get Trinity installation file, go to: http://trinityrnaseq.sourceforge.net/#sample_data
 
 You can download the file using wget or directly your download folder of your computer.
-In my case, I directly downloaded the file into my computer, then I transfer it to my beocat account.  
+In my case, I directly downloaded the file into my computer, then I transfer it to my directory where I want to deposit by using CyberDuck.  
 
--You need to untar compressed installtion file at the directory where you want to desopit. 
+-You need to untar compressed installtion file at the directory where you desopit the installation file. 
 
 		$ tar -xvf trinityrnaseq_r 20140717.tar
 
--You will see new directory "trinityrnaseq_r 20140717"
+-You will see new directory "trinityrnaseq_r 20140717" at current directory.
 
--to install all software for Trinity, type "make" at the same directory
+-To install all software for Trinity, type "make" at trinityrnaseq_r 20140717 directory
 
 		$ make #You will see many lines showing step where you are
 
 
-Now, you are ready to run Trinity with your NGS reads at Beocat. 
+Now, you need to install perlbrew to run Trinity with your NGS reads at Beocat. 
 
