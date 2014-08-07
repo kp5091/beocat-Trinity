@@ -3,8 +3,8 @@ Here is the link showing how to install it: https://support.beocat.cis.ksu.edu/B
 
 I just followed steps. 
 
-To setup perlbrew
-	change your shell to bash
+-To setup perlbrew, change your shell to bash
+
 		$ bash
 	
 
