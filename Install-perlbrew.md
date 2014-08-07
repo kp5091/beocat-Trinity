@@ -3,7 +3,6 @@ Here is the link showing how to install it: https://support.beocat.cis.ksu.edu/B
 
 I just followed steps of the link. 
 
-Briefly,
 -To setup perlbrew, change your shell to bash
 
 		$ bash
@@ -35,4 +34,21 @@ Briefly,
 -To run thread perl, you should add "perlbrew switch perl-5.16.3" at your shell script. 
 	Here is the example;
 	
+		#!/bin/bash
+		#$ -l mem=2G
+		# Now we tell qsub how long we expect our work to take: 15 minutes (H:MM:SS)
+		#$ -l h_rt=72:00:00
+
+		#### We need to define directory for perlbrew and give command switch perl-5.16.3
+		/homes/YOUR NAME/perl5/perlbrew/bin/perlbrew switch perl-5.16.3 
+
+		perl -version
+
+		#### To define the directory where I would like to put the output
+		cd /homes/kp5091/Hiseq
+
+		#######################################################
+		##  Run Trinity to Generate Transcriptome Assemblies ##
+		#######################################################
+
 
