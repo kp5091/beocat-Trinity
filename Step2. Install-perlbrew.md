@@ -56,6 +56,13 @@ So, if you write like above, then you can just qsub YOUR.sh without giving memmo
 		$ qsub YOUR_SHELL_SCRIPT.sh
 
 You can just change your arguments when you write script.  It is easy and convenient, isn't it?
-
 Now, you are finally ready to run Trinity with your NGS reads. 
+
+-For check your qsub, 
+
+		$ qstat
+		or
+		$ qstat -j JOBID
+		
+		
 
