@@ -24,12 +24,15 @@ Briefly,
 -Now, install perl with threads within perlbrew.  Before that, find current Perl version 
 
 		$ perl -version
-		my one was perl 5, version 16, subversion 3 (v5.16.3)
+		#my one was perl 5, version 16, subversion 3 (v5.16.3)#
 		
 -My case the version is 5.16.3, so you run
 
-		$ perlbrew install -f -n -D usethreads perl-5.16.3 #It tooks quite a long time, so just wait until it's done.
+		$ perlbrew install -f -n -D usethreads perl-5.16.3 
+		#It tooks quite a long time, so just wait until it's done#
 
 
 -To run thread perl, you should add "perlbrew switch perl-5.16.3" at your shell script. 
+	Here is the example;
+	
 
