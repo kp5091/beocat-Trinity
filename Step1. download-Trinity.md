@@ -16,5 +16,5 @@ In my case, I directly downloaded the file into my computer, then I transfer it 
 
 Now, you need to install perlbrew to run Trinity with your NGS reads at Beocat. 
 
-If you run Trinity without perlbrew, you would get error message: Trinity line 5. (which is "use threads;" in Trinity.pl) 
+If you run Trinity without perlbrew installation at Beocat, you would get error message: Trinity line 5. (which is "use threads;" in Trinity.pl) 
 
