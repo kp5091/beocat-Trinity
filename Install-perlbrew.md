@@ -50,4 +50,9 @@ I just followed steps of the link.
 		##  Run Trinity to Generate Transcriptome Assemblies ##
 		#######################################################
 
+Note, here is funny trick.  As you can see the top of script, I define memmory and running time for qsub.  
+So, if you write like above, then you can just qsub YOUR.sh without giving memmory, time, etc. 
+You can just change your arguments when you write script.  It is easy and convenient, isn't it?
+
+Now, you are finally ready to run Trinity with your NGS reads. 
 
