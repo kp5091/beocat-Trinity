@@ -14,5 +14,5 @@ In my case, I directly downloaded the file into my computer, then I transfer it 
 		$ make #You will see many lines showing step where you are
 
 
-Now, you are ready to run Trinity with your NGS reads. 
+Now, you are ready to run Trinity with your NGS reads at Beocat. 
 
