@@ -36,14 +36,13 @@ I just followed steps of the link.
 	
 		#!/bin/bash
 		#$ -l mem=2G
-		# Now we tell qsub how long we expect our work to take: 15 minutes (H:MM:SS)
+		# Now we tell qsub how long we expect our work to take: 72 hours (H:MM:SS)
 		#$ -l h_rt=72:00:00
 
-		#### We need to define directory for perlbrew and give command switch perl-5.16.3
+		#### You need to define directory for perlbrew and give command switch perl-5.16.3
 		/homes/YOUR NAME/perl5/perlbrew/bin/perlbrew switch perl-5.16.3 
 
-		perl -version
-
+	
 		#### To define the directory where I would like to put the output
 		cd /homes/kp5091/Hiseq
 
