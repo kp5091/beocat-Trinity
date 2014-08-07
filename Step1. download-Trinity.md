@@ -1,3 +1,5 @@
+Downlaod installation file and Install Trinity
+===============================================
 To get Trinity installation file, go to: http://trinityrnaseq.sourceforge.net/#sample_data
 
 You can download the file using wget or directly your download folder of your computer.
