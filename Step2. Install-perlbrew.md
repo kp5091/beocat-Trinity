@@ -68,6 +68,5 @@ Now, you are finally ready to run Trinity with your NGS reads.
 		
 		
 
--For the first trial of Trinity run at Beocat
-	I defined 72 hours for Trinity run. 
+
 	
